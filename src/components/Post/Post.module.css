@@ -1,0 +1,146 @@
+.post {
+    border: 1px solid #dae0e6;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    margin: 16px 0;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.05);
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content {
+    font-size: 18px;
+    display: flex;
+    align-items: flex-start;
+    line-height: 1.4;
+    margin-bottom: 119px;
+    overflow-wrap: break-word;
+    width: 80%;
+    margin-top: 23px;
+    margin-left: 2px;
+  }
+  
+  .votes {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .vote-button {
+    border: none;
+    background-color: transparent;
+    padding: 3px 3px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px;
+    color: #888;
+    display: flex;
+    align-items: center;
+  }
+  
+  .vote-button:hover {
+    background-color: #f6f7f8;
+  }
+  
+  .upvote-button:hover,
+  .downvote-button:hover {
+    color: #ff4500; /* Orange color, similar to Reddit */
+  }
+  
+  .owner {
+    /* margin-top:0%; */
+    /* margin-left:1%; */
+    font-size: 14px;
+    color: #555;
+  }
+
+.post {
+    position: relative; 
+  }
+  
+  .votes {
+    position: absolute;
+    top: 16px; 
+    left: 16px; 
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    gap: 1px;
+  }
+  
+  
+  .upvote-button:hover,
+  .downvote-button:hover {
+    color: #ff4500;
+  }
+
+  .ownerLink {
+    text-decoration: none;
+    color:#608f98;
+  }
+
+  .comments-button{
+    background-color: #ffffff;
+    border: none;
+  }
+  
+  .upvoteButton {
+    color: green;
+  }
+  
+  .downvoteButton {
+    color: red;
+  }
+  
+  .votes {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-right: 10px; 
+  }
+  
+  .voteButton {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .voteCount {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 1px 10px;
+  }
+
+  .arrowIcon {
+    margin: 5px;
+  }
+
+  .selected {
+    background-color: #f0f0f0;
+  }
+
+  @media screen and (max-width: 1000px) {
+  
+    .vote-button {
+      font-size: 14px;
+    }
+  
+    .votes {
+      margin-right: 0;
+    }
+    
+    .content {
+      font-size: 16px;
+      margin-bottom: 8px;
+    }
+    
+    .owner {
+      font-size: 12px;
+    }
+  }
+  

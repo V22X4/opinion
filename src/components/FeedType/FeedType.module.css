@@ -1,0 +1,69 @@
+/* FeedTypeSwitch.css */
+.FeedType-container {
+  width: 100%;
+  height: 79%;
+  overflow-y: scroll;
+}
+.FeedType-container::-webkit-scrollbar {
+  display: none;
+}
+
+.feed-type-switch {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  position: relative;
+}
+
+.feed-type-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.feed-button {
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 8px 16px;
+  margin: 0 ;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.active-feed-button {
+  color: #fff;
+  background-color: #4056a1;
+  border-radius: 30px;
+}
+
+/* Add styles for the oval outline */
+/* .oval-outline {
+  position: fixed; 
+  width: 190px;
+  height: 36px;
+  border: 2px solid #4056a1;
+  border-radius: 30px;
+  pointer-events: none;
+  z-index: 2;
+  top: calc(165px); 
+  left: 50%;
+  transform: translateX(-50%);
+} */
+
+.feed-content {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.feed-content-text {
+  font-size: 18px;
+  color: #333;
+}
+
+

@@ -1,0 +1,46 @@
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 18px 20px;
+  background-color: #fff;
+  color: black;
+  width: 96%;
+  margin-left: 0.7%;
+  border-radius: 10px;
+  position: fixed;
+  z-index: 50000000;
+}
+
+
+.logo {
+  margin-left: 1%;
+}
+
+.logo-link {
+  text-decoration: none; 
+  color: inherit; 
+}
+
+.logo-text {
+  font-size: 24px;
+}
+
+.search {
+  flex: 1.2;
+}
+
+.search input {
+  padding: 5px;
+  border-radius: 18px;
+  padding: 10px 10px;
+  margin-left: 4%;
+  margin-right: 10px;
+  width: 42%;
+}
+
+.authenticated-search {
+  margin-left: 1.6%;
+}

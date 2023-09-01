@@ -1,0 +1,47 @@
+/* ProfileInfo.module.css */
+.profileInfo {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .switchButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .switchButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .userList {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .userList ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .userList li {
+    margin-bottom: 8px;
+  }
+
+  .list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  

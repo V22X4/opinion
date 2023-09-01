@@ -1,0 +1,34 @@
+.Feed-container {
+    margin: 10px;
+    width: 400px; 
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 10px;
+    padding: 10px; 
+  }
+  
+  .Feed {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.6s, color 0.6s;
+    overflow-y:auto;
+  }
+  .Feed::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .DefaultMessage {
+    max-width: 350px;
+    margin-left: 13%;
+  }
+
+.Feed-container {
+  scroll-behavior: smooth;
+}

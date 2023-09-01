@@ -1,0 +1,37 @@
+/* CommentSection.module.css */
+.commentSectionContainer {
+  padding: 20px;
+}
+
+.addComment {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.addCommentInput {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.addCommentButton {
+  padding: 8px 12px;
+  background-color: #4056a1;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.commentList {
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+
+.DefaultMessage {
+  max-width: 350px;
+  margin-left: 13%;
+  margin-top: 1%;
+}

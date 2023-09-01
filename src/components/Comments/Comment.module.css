@@ -1,0 +1,58 @@
+.comment {
+  display: flex;  /* Make the comment a flex container */
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.votes {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  margin-right: 10px; 
+}
+
+.voteButton {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.voteCount {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.ownerLink {
+  text-decoration: none;
+  color: #333;
+}
+
+.content {
+  margin-top: 22px;
+  overflow-wrap: break-word;
+  max-width: 90%;
+  text-align: left;
+}
+
+.comments-button {
+  background-color: #ddd;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* Additional styles for upvote and downvote buttons */
+.upvoteButton {
+  color: green;
+}
+
+.downvoteButton {
+  color: red;
+}
+
+.arrowIcon {
+  margin: 5px;
+}

@@ -1,0 +1,35 @@
+
+.userListSectionContainer {
+    padding: 20px;
+  }
+  
+  
+  .userList {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+  }
+  
+  .DefaultMessage {
+    max-width: 350px;
+    margin-left: 13%;
+    margin-top: 1%;
+  }
+
+  
+  .userList {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .defaultMessage {
+    color: gray;
+  }
+  
+  .user {
+    border: 1px solid #ccc;
+    padding: 8px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+  }
+  

@@ -1,0 +1,38 @@
+
+
+.createPostContainer {
+  margin: 2.5% auto 0;
+  max-width: 500px;
+  padding: 20px 27px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  margin-top: 100px;
+}
+
+
+
+
+.submitContainer {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.submitButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.reactQuillContainer {
+  height: 300px;
+}
+
+
+
+
+
